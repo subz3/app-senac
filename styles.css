@@ -1,0 +1,140 @@
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.logo-senac {
+    width: 160px;
+    margin-top: 20px;
+    animation: rodar 3s infinite;
+    margin-bottom: 15px;
+}
+
+.lista-botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    background-color: #f5a000;
+    color: white;
+    padding: 23px;
+    text-align: center;
+    border-radius: 16px; background-color: FFFFFF;
+    font-size: 56px;
+    line-height: 90%;
+}
+
+.curso-item {
+    background-color: #202020;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    border-radius: 32px;
+    border: 3px solid orange;
+}
+
+body {
+    padding: 16px;
+    background-color: #161616;
+    font-family: 'Poppins', sans-serif;
+}
+
+.curso-texto {
+    padding: 24px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+.curso-texto li {
+    background-color: #4d4d4d;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.curso-texto ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.curso-texto span {
+    height: 5px;
+    width: 27px;
+    background-color: #f5a000;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 2s ease;
+}
+
+.curso-texto a {
+    background-color: #161649   ;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    position: absolute;
+    top: 20px;
+    right: -65px;
+    width: 200px;
+    text-align: center;
+    transform: rotate(45deg);
+}
+
+.curso-item p {
+    color: #d2d2d2
+}
+
+.curso-texto:hover spah {
+    width: 120px;
+}
+.cursos-lista{
+    
+     display: flex;
+     flex-direction: column;
+     gap: 24px;
+     
+  }
+header{
+ margin-top: 20px;
+}
+
+footer{
+    color: #4d4d4d;
+    text-align: center;
+    
+}
+@keyframes rodar{
+
+    from{
+     transform: rotate(0deg);
+    }
+    to{
+    transform: rotate(360deg);
+    }
+}
+
+
+    
+    
+
+  
+  
+
+
+  
