@@ -1,0 +1,1 @@
+alert("Este aplicativo foi criado por 𝕱𝖎𝖉𝖊𝖑𝖎𝖟 𝕾𝖆𝖙𝖚𝖗𝖓𝖔")
